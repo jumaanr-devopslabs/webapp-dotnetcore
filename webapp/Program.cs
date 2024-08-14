@@ -1,7 +1,7 @@
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-// Added a new comment
+// Added a new comment to trigger the pipeline
 builder.Services.AddRazorPages();
 
 var app = builder.Build();
